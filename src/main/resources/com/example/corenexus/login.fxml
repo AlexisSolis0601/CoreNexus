@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.corenexus.LoginController">
+   <children>
+      <Pane layoutX="200.0" layoutY="41.0" prefHeight="499.0" prefWidth="400.0" AnchorPane.bottomAnchor="35.0" AnchorPane.topAnchor="35.0">
+         <children>
+            <Label layoutX="114.0" layoutY="56.0" text="CoreNexus">
+               <font>
+                  <Font name="Garet Book" size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="90.0" layoutY="134.0" text="INGRESA TU IDENTIFICADOR">
+               <font>
+                  <Font name="Russo One" size="15.0" />
+               </font>
+            </Label>
+            <Label contentDisplay="CENTER" layoutX="13.0" layoutY="153.0" text="Para entrar a la app, ingresa tu nombre e identificador" textAlignment="CENTER">
+               <font>
+                  <Font name="Kiona Regular" size="12.0" />
+               </font>
+            </Label>
+            <TextField layoutX="13.0" layoutY="177.0" prefHeight="25.0" prefWidth="374.0" promptText="Nombre..." />
+            <TextField layoutX="13.0" layoutY="211.0" prefHeight="25.0" prefWidth="374.0" promptText="Identificador..." />
+            <Button alignment="CENTER" layoutX="157.0" layoutY="253.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="85.0" text="Ingresar" />
+            <Label alignment="CENTER" ellipsisString="32" layoutX="84.0" layoutY="298.0" prefHeight="25.0" prefWidth="232.0" text="Al hacer clic en Continuar aceptas nuestro" textAlignment="CENTER" />
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="69.0" layoutY="323.0" prefHeight="17.0" prefWidth="261.0" text="Términos de servicio y la Política de privacidad" textAlignment="CENTER" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
