@@ -46,7 +46,7 @@
                         <Font size="20.0" />
                      </font>
                   </Label>
-                  <Label alignment="CENTER_RIGHT" prefHeight="30.0" prefWidth="250.0" text="username">
+                  <Label fx:id="nameLabel" alignment="CENTER_RIGHT" prefHeight="30.0" prefWidth="250.0" text="username">
                      <HBox.margin>
                         <Insets right="30.0" />
                      </HBox.margin>
@@ -66,7 +66,19 @@
             </HBox>
          </top>
          <center>
-            <AnchorPane prefHeight="650.0" prefWidth="1080.0" BorderPane.alignment="CENTER" />
+            <AnchorPane prefHeight="650.0" prefWidth="1080.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label fx:id="nameLabel2" alignment="CENTER" layoutX="1.0" layoutY="181.0" prefHeight="17.0" prefWidth="1081.0" text="BIENVENIDO ALEXIS HOSHIMI" textAlignment="CENTER">
+                     <font>
+                        <Font name="Kiona Regular" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="1.0" layoutY="221.0" prefHeight="46.0" prefWidth="1080.0" text="SELECCIONE UNA OPCION DEL PANEL IZQUIERDO,&#10;PARA COMENZAR A REALIZAR TRANSACCIONES.&#10;" textAlignment="CENTER">
+                     <font>
+                        <Font name="Garet Book" size="16.0" />
+                     </font>
+                  </Label>
+               </children></AnchorPane>
          </center>
       </BorderPane>
    </children>

@@ -26,9 +26,9 @@
                   <Font name="Kiona Regular" size="12.0" />
                </font>
             </Label>
-            <TextField layoutX="13.0" layoutY="177.0" prefHeight="25.0" prefWidth="374.0" promptText="Nombre..." />
-            <TextField layoutX="13.0" layoutY="211.0" prefHeight="25.0" prefWidth="374.0" promptText="Identificador..." />
-            <Button alignment="CENTER" layoutX="157.0" layoutY="253.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="85.0" text="Ingresar" />
+            <TextField fx:id="nameTextField" layoutX="13.0" layoutY="177.0" prefHeight="25.0" prefWidth="374.0" promptText="Nombre..." />
+            <TextField fx:id="idTextField" layoutX="13.0" layoutY="211.0" prefHeight="25.0" prefWidth="374.0" promptText="Identificador..." />
+            <Button fx:id="loginButton" alignment="CENTER" layoutX="157.0" layoutY="253.0" mnemonicParsing="false" onAction="#loginBtn" prefHeight="25.0" prefWidth="85.0" text="Ingresar" />
             <Label alignment="CENTER" ellipsisString="32" layoutX="84.0" layoutY="298.0" prefHeight="25.0" prefWidth="232.0" text="Al hacer clic en Continuar aceptas nuestro" textAlignment="CENTER" />
             <Label alignment="CENTER" contentDisplay="CENTER" layoutX="69.0" layoutY="323.0" prefHeight="17.0" prefWidth="261.0" text="Términos de servicio y la Política de privacidad" textAlignment="CENTER" />
          </children>

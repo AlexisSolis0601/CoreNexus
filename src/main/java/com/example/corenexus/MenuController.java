@@ -3,11 +3,15 @@ package com.example.corenexus;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
+import javafx.scene.control.Label;
 import javafx.scene.layout.BorderPane;
 
 import java.io.IOException;
 
 public class MenuController {
+
+    @FXML
+    Label nameLabel, nameLabel2;
     @FXML
     private BorderPane borderPane;
 
@@ -20,6 +24,11 @@ public class MenuController {
             System.out.println("FXML file not found");
             e.printStackTrace();
         }
+    }
+
+    public void displayName(String username){
+        nameLabel.setText(username);
+        nameLabel2.setText("BIENVENIDO "+username);
     }
 
     public void transaccionLocal(){
