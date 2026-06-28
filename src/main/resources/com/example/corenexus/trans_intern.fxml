@@ -37,8 +37,8 @@
                </font>
             </Label>
             <Separator layoutY="153.0" prefWidth="225.0" />
-            <Label layoutY="170.0" text="MONTO TOTAL: $" />
-            <Label fx:id="montoTotal" layoutX="99.0" layoutY="170.0" prefHeight="17.0" prefWidth="129.0" text="000,000.00" />
+            <Label layoutY="170.0" text="MONTO TOTAL: " />
+            <Label fx:id="montoTotal" layoutX="88.0" layoutY="170.0" prefHeight="17.0" prefWidth="280.0" text="\$000,000.00" />
             <Button fx:id="btnEnviar" layoutX="24.0" layoutY="202.0" mnemonicParsing="false" onAction="#transactionProcess" text="Enviar Transaccion" />
          </children>
       </Pane>

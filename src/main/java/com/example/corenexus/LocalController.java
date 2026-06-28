@@ -53,6 +53,8 @@ public class LocalController implements Initializable {
 
             Transaccion tx = new Transaccion(cuenta, monto, estado, true);
 
+            BancoDatos.addHistorial(tx);
+
             mostrarAlerta("TRANSACCION EXITOSA!", "Se realizo una transaccion de: $"+monto+
                     "\nA la cuenta: "+cuenta+" con EXITO!", Alert.AlertType.INFORMATION);
 

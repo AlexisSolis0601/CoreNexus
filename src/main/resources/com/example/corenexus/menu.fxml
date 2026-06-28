@@ -68,7 +68,7 @@
          <center>
             <AnchorPane prefHeight="650.0" prefWidth="1080.0" BorderPane.alignment="CENTER">
                <children>
-                  <Label fx:id="nameLabel2" alignment="CENTER" layoutX="1.0" layoutY="181.0" prefHeight="17.0" prefWidth="1081.0" text="BIENVENIDO ALEXIS HOSHIMI" textAlignment="CENTER">
+                  <Label fx:id="nameLabel2" alignment="CENTER" layoutX="1.0" layoutY="181.0" prefHeight="17.0" prefWidth="1081.0" text="BIENVENIDO ALEXIS SOLIS" textAlignment="CENTER">
                      <font>
                         <Font name="Kiona Regular" size="30.0" />
                      </font>

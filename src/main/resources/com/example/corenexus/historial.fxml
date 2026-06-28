@@ -7,7 +7,6 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="650.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.corenexus.HistoryController">
    <children>
       <Pane layoutX="20.0" layoutY="20.0" prefHeight="85.0" prefWidth="820.0">
@@ -27,7 +26,7 @@
       </Pane>
       <Pane layoutX="34.0" layoutY="105.0" prefHeight="504.0" prefWidth="800.0">
          <children>
-            <ListView layoutX="14.0" layoutY="14.0" prefHeight="474.0" prefWidth="771.0" />
+               <ListView fx:id="historyListView" layoutX="14.0" layoutY="14.0" prefHeight="474.0" prefWidth="771.0" />
          </children>
       </Pane>
    </children>

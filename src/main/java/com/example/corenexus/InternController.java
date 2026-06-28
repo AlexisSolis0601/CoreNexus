@@ -91,6 +91,8 @@ public class InternController implements Initializable {
 
             Internacional tx = new Internacional(cuenta, monto, pais, true);
 
+            BancoDatos.addHistorial(tx);
+
             double comision = tx.deposito(monto);
             montoTotal.setText(String.format("$%,.2f", comision));
 
